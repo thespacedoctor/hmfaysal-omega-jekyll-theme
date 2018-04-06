@@ -13,6 +13,7 @@ cover/
 html_test_coverage_report/
 _ignore_*
 build
+_site
 
 # Compiled python modules.
 *.pyc
