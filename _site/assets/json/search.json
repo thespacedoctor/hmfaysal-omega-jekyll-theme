@@ -1,3 +1,156 @@
 [
   
+    {
+      "title"    : "MultiMarkdown Syntax Guide",
+      "category" : "personal",
+      "tags"     : "markdown",
+      "url"      : "/blog/2016/06/02/a-single-file-post.html",
+      "date"     : "2016-06-02 00:00:00 +0100",
+			"shortdate": "June 02, 2016"
+    } ,
+  
+    {
+      "title"    : "Example - Status Post",
+      "category" : "example-posts",
+      "tags"     : "sample-post, status",
+      "url"      : "/blog/2016/06/02/a-status.html",
+      "date"     : "2016-06-02 00:00:00 +0100",
+			"shortdate": "June 02, 2016"
+    } ,
+  
+    {
+      "title"    : "Example - Photo Post",
+      "category" : "photos",
+      "tags"     : "sample-post, images, gallery, photo",
+      "url"      : "/blog/2016/06/02/sample-gallery-post.html",
+      "date"     : "2016-06-02 00:00:00 +0100",
+			"shortdate": "June 02, 2016"
+    } ,
+  
+    {
+      "title"    : "Example - Quotation Post",
+      "category" : "example-posts",
+      "tags"     : "sample-post, status",
+      "url"      : "/blog/2016/06/02/a-quotation.html",
+      "date"     : "2016-06-02 00:00:00 +0100",
+			"shortdate": "June 02, 2016"
+    } ,
+  
+    {
+      "title"    : "Example - Video Post",
+      "category" : "videos",
+      "tags"     : "sample-post, video",
+      "url"      : "/blog/2016/06/02/video-post.html",
+      "date"     : "2016-06-02 00:00:00 +0100",
+			"shortdate": "June 02, 2016"
+    } ,
+  
+    {
+      "title"    : "Example - Link Post",
+      "category" : "Sample-Posts",
+      "tags"     : "sample-post, links",
+      "url"      : "/blog/2016/06/02/sample-link-post.html",
+      "date"     : "2016-06-02 00:00:00 +0100",
+			"shortdate": "June 02, 2016"
+    } ,
+  
+    {
+      "title"    : "Features - ABOUT HMFAYSAL OMEGA",
+      "category" : "Theme-Setup",
+      "tags"     : "Jekyll, HMFAYSAL OMEGA, Features",
+      "url"      : "/blog/2016/05/31/about-hmfaysal-omega.html",
+      "date"     : "2016-05-31 00:00:00 +0100",
+			"shortdate": "May 31, 2016"
+    } ,
+  
+    {
+      "title"    : "Features - Theme Elements",
+      "category" : "Theme-Setup",
+      "tags"     : "Jekyll, HMFAYSAL OMEGA",
+      "url"      : "/blog/2016/05/31/theme-elements.html",
+      "date"     : "2016-05-31 00:00:00 +0100",
+			"shortdate": "May 31, 2016"
+    } ,
+  
+    {
+      "title"    : "Feature - Fancy Some Columns?",
+      "category" : "Sample-Posts",
+      "tags"     : "sample post, columns",
+      "url"      : "/blog/2016/05/31/fancy-columns.html",
+      "date"     : "2016-05-31 00:00:00 +0100",
+			"shortdate": "May 31, 2016"
+    } ,
+  
+    {
+      "title"    : "Feature - Sample Mathjax Post",
+      "category" : "Sample-Posts",
+      "tags"     : "sample post, mathjax",
+      "url"      : "/blog/2016/05/31/sample-mathjax-post.html",
+      "date"     : "2016-05-31 00:00:00 +0100",
+			"shortdate": "May 31, 2016"
+    } ,
+  
+    {
+      "title"    : "Feature - Syntax Highlighting Post",
+      "category" : "Sample-Posts",
+      "tags"     : "sample post, code, highlighting",
+      "url"      : "/blog/2016/05/31/code-highlighting-post.html",
+      "date"     : "2016-05-31 00:00:00 +0100",
+			"shortdate": "May 31, 2016"
+    } ,
+  
+    {
+      "title"    : "Markdown Syntax Test",
+      "category" : "personal",
+      "tags"     : "",
+      "url"      : "/blog/2015/08/23/MarkdownTest.html",
+      "date"     : "2015-08-23 00:00:00 +0100",
+			"shortdate": "August 23, 2015"
+    } ,
+  
+    {
+      "title"    : "First Commit",
+      "category" : "personal",
+      "tags"     : "blogging, jekyll",
+      "url"      : "/blog/2014/05/15/first-commit.html",
+      "date"     : "2014-05-15 00:00:00 +0100",
+			"shortdate": "May 15, 2014"
+    } ,
+  
+    {
+      "title"    : "A Post with Images",
+      "category" : "photos",
+      "tags"     : "sample post, images, test",
+      "url"      : "/blog/2014/01/03/sample-post-images.html",
+      "date"     : "2014-01-03 00:00:00 +0000",
+			"shortdate": "January 03, 2014"
+    } ,
+  
+    {
+      "title"    : "Testing Readability with a Bunch of Text",
+      "category" : "Sample-Posts",
+      "tags"     : "sample post, readability, test, intro",
+      "url"      : "/blog/2014/01/01/readability-post.html",
+      "date"     : "2014-01-01 00:00:00 +0000",
+			"shortdate": "January 01, 2014"
+    } ,
+  
+    {
+      "title"    : "Installing Jekyll on Windows",
+      "category" : "Theme-Setup",
+      "tags"     : "Jekyll, Installation",
+      "url"      : "/blog/2013/12/31/installing-jekyll-on-windows.html",
+      "date"     : "2013-12-31 00:00:00 +0000",
+			"shortdate": "December 31, 2013"
+    } ,
+  
+    {
+      "title"    : "Post with Large Feature Image and Text",
+      "category" : "Sample-Posts",
+      "tags"     : "sample post, readability",
+      "url"      : "/blog/2013/12/30/readability-feature-post.html",
+      "date"     : "2013-12-30 00:00:00 +0000",
+			"shortdate": "December 30, 2013"
+    } 
+  
 ]

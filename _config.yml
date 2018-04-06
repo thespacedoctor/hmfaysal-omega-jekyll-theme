@@ -1,0 +1,154 @@
+
+## SITE DETAILS
+title:            thespacedoctor
+description:      Thoughts, Reviews and Code from thespacedoctor
+logo:             thespacedoctor_icon_white_circle.png
+# Assign a default image for your site's header and footer
+default_bg:       m66_hst_big.jpg
+search:           true
+share:            true
+# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+readtime:         true
+wpm:              200
+
+# HEADER FOOTER FIN ANIMATIONS
+triangleheader:	  true
+animated_fins:    true
+fin_color:        "255,255,255"
+
+# Change url to your domain. Leave localhost server or blank when working locally.
+# Or start Jekyll with: jekyll serve --baseurl ''
+url: localhost
+# baseurl:   
+
+port: 4001
+excerpt_separator: <!--summary-->
+url-for-rss-feed: http://www.thespacedoctor.co.uk/        
+
+## Gems used
+plugins:
+  - jekyll-feed
+  - jekyll-archives
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-seo-tag
+
+# Archives configuration
+# https://github.com/jekyll/jekyll-archives/blob/master/docs/configuration.md
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    # year: '/:year/'
+    # month: '/:year/:month/'
+    # day: '/:year/:month/:day/'
+    tag: '/archive/tag/:name/'
+    category: '/archive/category/:name/'
+
+# Owner/author information
+disqus_shortname: thespacedoctor
+author:
+  name:           David Young
+  picture:        thespacedoctor_icon_transparent.png
+  email:          davidrobertyoung@gmail.com
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    David Young is a Scientific Programmer for the Astrophysics Research Centre, Queen's University Belfast. He has a PhD in Astrophysics, but is a cowboy when it comes to coding.
+  # Social networking links used in footer. Update and remove as you like.
+  twitter: thespacedoctor
+  facebook:
+  github: thespacedoctor
+  linkedin: david-young-8b5473141
+  stackoverflow: 8608595
+  instagram: thespacedoctor
+  tumblr:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus: 
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:  UA-79433437-1
+google_verify:
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: About
+    url: /about
+  - title: Archive
+    url: /archive
+  - title: Categories
+    url: /categories
+  - title: Tags
+    url: /tags
+  - title: Projects
+    url: /projects
+
+# Sitemap configuration
+# https://github.com/kinnetica/jekyll-plugins
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Belfast
+future:      true
+markdown:    MMD
+highlighter: pygments
+paginate:    6
+paginate_path: "/blog/:num/"
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /blog/:year/:month/:day/:title.html
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+# DIRECTORIES OF RELATED POSTS = COLLECTIONS
+collections:
+  protected:
+    output: true
+  examples:
+    output: true
+    permalink: /examples/:title
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title.html
+  pages:
+    output: true
+    permalink: /:title
+  
+
+sitemap-include: ["*.xls"]
+encoding: UTF-8
+exclude: ["_posts/**[^.md]", "example_posts", "lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+include: [".htaccess"]
+
+kramdown:
+  input: GFM
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+
+# The defaults key holds an array of scope/values pairs that define what defaults should be set for a particular file path, and optionally, a file type in that path. See https://jekyllrb.com/docs/configuration/#front-matter-defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project (possible to use glob patterns - currently limited to patterns that contain * - when matching defaults.
+      type: posts # can be pages, posts, drafts or any collection in your site.
+    values:
+      layout: post
+      imagefeature: star_field.jpg
+      comments: true
+      mathjax: true
+      tags: ""
+      category: personal
