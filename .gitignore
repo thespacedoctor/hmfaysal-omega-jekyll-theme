@@ -16,6 +16,7 @@ build
 _site
 *.gem
 *.gemspec
+Gemfile.lock
 
 # Compiled python modules.
 *.pyc
