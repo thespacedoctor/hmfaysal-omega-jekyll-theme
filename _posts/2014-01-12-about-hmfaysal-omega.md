@@ -2,9 +2,11 @@
 layout: post
 title: "Features - ABOUT HMFAYSAL OMEGA"
 subtitle: Sleek, intuitive, and powerful mobile first Jekyll theme
-headline: 
 category: Theme-Setup
-tags: [Jekyll, HMFAYSAL OMEGA, Features]
+tags: 
+    - jekyll
+    - hmfaysal omega
+    - features
 imagefeature: star_field.jpg
 comments: true
 modified: 2016-05-31
@@ -25,6 +27,8 @@ Write well, write beautifully, write responsively!
 *  Auto generated table of contents
 
 {:toc}
+
+<!--summary-->
 
 </div>
 </section><!-- /#table-of-contents -->

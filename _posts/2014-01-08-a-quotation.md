@@ -4,7 +4,9 @@ type: quote
 title: "Example - Quotation Post"
 subtitle: See the rest of the post about Albert Einstein
 category: example-posts
-tags: sample-post status
+tags: 
+    - sample-post 
+    - status
 imagefeature: albert-einstein-2068-hd-wallpapers.jpg
 comments: true
 date: 2016-06-02

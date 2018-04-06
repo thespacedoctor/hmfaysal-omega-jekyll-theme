@@ -4,7 +4,9 @@ type: video
 title: "Example - Video Post"
 subtitle: "Here is a description of this video post"
 category: videos
-tags: sample-post video
+tags: 
+    - sample-post 
+    - video
 video: https://www.youtube.com/watch?v=Oe3St1GgoHQ
 imagefeature: blurred_circles.jpg
 comments: true
@@ -22,6 +24,8 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 <iframe width="940" height="529" src="//www.youtube.com/embed/CQJByFp7H38?theme=light&amp;color=white" frameborder="0" allowfullscreen> </iframe>
 ```
 
+
+<!--summary-->
 
 <iframe width="940" height="529" src="//www.youtube.com/embed/Oe3St1GgoHQ?theme=light&amp;color=white" frameborder="0" allowfullscreen></iframe>
 

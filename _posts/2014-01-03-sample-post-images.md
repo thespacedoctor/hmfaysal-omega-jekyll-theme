@@ -3,13 +3,18 @@ layout: post
 title: "A Post with Images"
 subtitle: "Examples and code for displaying images in posts."
 category: photos
-tags: [sample post, images, test]
+tags:
+  - sample-post
+  - images
+  - test
 imagefeature: star_field.jpg
 comments: true
 share: true
 ---
 
 Here are some examples of what a post with images might look like. If you want to display two or three images next to each other responsively use `figure` with the appropriate `class`. Images are responsive and are opened in a Magnific Popup lightbox if you link a larger image to the entry. Also if you link a larger image, the image thumbs uses CSS3 transitions to turn B&W and change back to color on mouse-hover. Each instance of `figure` is auto-numbered and displayed in the caption.
+
+<!--summary-->
 
 ## Figures (for images or video)
 

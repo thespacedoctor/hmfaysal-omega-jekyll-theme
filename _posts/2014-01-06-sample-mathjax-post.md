@@ -2,7 +2,6 @@
 layout: post
 title: "Feature - Sample Mathjax Post"
 subtitle: "MathJax Test article"
-headline: 
 category: Sample-Posts
 tags: [sample post, mathjax]
 imagefeature: star_field.jpg
@@ -27,10 +26,13 @@ $$\begin{aligned}
 \dot{z} & = -\beta z + xy
 \end{aligned}$$
 
+
 **The Cauchy-Schwarz Inequality**
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^{\!\!2} \leq
  \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+<!--summary-->
 
 **A Cross Product Formula**
 

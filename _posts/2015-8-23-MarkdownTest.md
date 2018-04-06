@@ -2,10 +2,9 @@
 layout: post
 title: "Markdown Syntax Test"       # Title of the post
 subtitle: Some description       # Description of the post, used for Facebook Opengraph & Twitter
-headline: Markdown Syntax Test      # Will appear in bold letters on top of the post
 modified: 2015-8-23                 # Date
 category: personal
-tags: []
+tags:
 image: 
 comments: true
 mathjax:
@@ -22,6 +21,8 @@ Markdown: Syntax
     <li><a href="/projects/markdown/dingus" title="Online Markdown Web Form">Dingus</a></li>
 </ul>
 
+
+<!--summary-->
 
 *   [Overview](#overview)
     *   [Philosophy](#philosophy)

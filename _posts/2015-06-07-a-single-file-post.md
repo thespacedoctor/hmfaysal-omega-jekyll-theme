@@ -15,8 +15,9 @@ This guide has been lifted directly from Fletcher Penney's [Multimarkdown Github
 
 This is a guide to the markup syntax used in the MultiMarkdown system.
 
-<!--summary-->
+shitburgers
 
+<!--summary-->
 
 ## YAML Front Matter
 

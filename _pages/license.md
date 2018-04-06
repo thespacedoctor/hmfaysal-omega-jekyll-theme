@@ -2,8 +2,7 @@
 layout: page
 permalink: /license/
 title: LICENSE
-description: "License for Jekyll theme HMFAYSAL OMEGA."
-headline: "The MIT License"
+subtitle: "License for Jekyll theme HMFAYSAL OMEGA."
 tags: [Jekyll, theme, license]
 image:
   feature: 

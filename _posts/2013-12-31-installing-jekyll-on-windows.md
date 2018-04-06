@@ -2,9 +2,10 @@
 layout: post
 title: "Installing Jekyll on Windows"
 subtitle: Simple 10 step method to get started with Jekyll
-headline: 
 category: Theme-Setup
-tags: [Jekyll, Installation]
+tags: 
+    - jekyll
+    - installation
 imagefeature: star_field.jpg
 comments: true
 mathjax: 
@@ -21,7 +22,7 @@ Welcome to HMFAYSAL OMEGA Theme for Jekyll. In this tutorial, I will show you ho
 </div>
 </section>
 
- 
+ <!--summary-->
 
 ## Step 1: Installing Ruby ##
  Jekyll is a Ruby-Gem. So obviously you’d need Ruby to be installed in your Windows PC, you’d also need the Ruby DevKit in your system too. There is an easy way to install Ruby on Windows, its called the RubyInstaller. So head over to RubyInstaller webpage and grab of copy of the latest Ruby. Select x86 or x64 based on your PC configuration. Then scroll down and to find the corresponding DevKit for your Ruby and download that too. Double click on the RubyInstaller to begin installing Ruby. There are a few caveats here. The directory name (*string) should not have any spaces(*whitespaces), though numbers, dash and underscores are acceptable. Also check Add Ruby to Path to make your life easier. Finish installing Ruby, then click on the DevKit extractor. Extract it to some convenient location like ~ C:\. Finally open up Command Prompt and change your directory to the extracted DevKit folder. Typing the following commands will initialize the Ruby Installation:

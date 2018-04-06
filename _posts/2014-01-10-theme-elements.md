@@ -3,8 +3,9 @@ layout: post
 title: "Features - Theme Elements"
 subtitle: Theme Elements will save you tons of time working on the site content. Now you'll be able to create complex layouts within minutes.
 category: Theme-Setup
-headline: Discover the theme elements
-tags: [Jekyll, HMFAYSAL OMEGA]
+tags: 
+  - jekyll
+  - hmfaysal omega
 imagefeature: star_field.jpg
 comments: true
 modified: 2016-05-31
@@ -22,6 +23,8 @@ I've put together a little post to introduce you to the HMFAYSAL OMEGA theme and
 {:toc}
 </div>
 </section>
+
+<!--summary-->
 
 # ELEMENTS
 

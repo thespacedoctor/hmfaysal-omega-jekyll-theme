@@ -1,7 +1,7 @@
 
 ## SITE DETAILS
-title:            thespacedoctor
-description:      Thoughts, Reviews and Code from thespacedoctor
+title:            mylovelyhorse
+description:      Thoughts, Reviews from My Lovely Horse
 logo:             thespacedoctor_icon_white_circle.png
 # Assign a default image for your site's header and footer
 default_bg:       m66_hst_big.jpg
@@ -18,12 +18,12 @@ fin_color:        "255,255,255"
 
 # Change url to your domain. Leave localhost server or blank when working locally.
 # Or start Jekyll with: jekyll serve --baseurl ''
-url: 
+url: http://mylovelyhorse.co.uk
 # baseurl:   
 
 port: 4001
 excerpt_separator: <!--summary-->
-url-for-rss-feed: http://www.thespacedoctor.co.uk/        
+url-for-rss-feed: http://mylovelyhorse.co.uk  
 
 ## Gems used
 plugins:
@@ -49,26 +49,26 @@ jekyll-archives:
     category: '/archive/category/:name/'
 
 # Owner/author information
-disqus_shortname: thespacedoctor
+disqus_shortname: mylovelyhorse
 author:
-  name:           David Young
+  name:           Joe Doe
   picture:        thespacedoctor_icon_transparent.png
-  email:          davidrobertyoung@gmail.com
+  email:          mylovelyhorse@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    David Young is a Scientific Programmer for the Astrophysics Research Centre, Queen's University Belfast. He has a PhD in Astrophysics, but is a cowboy when it comes to coding.
+  description:    Some awesome stuff
   # Social networking links used in footer. Update and remove as you like.
-  twitter: thespacedoctor
+  twitter: mylovelyhorse
   facebook:
-  github: thespacedoctor
-  linkedin: david-young-8b5473141
-  stackoverflow: 8608595
-  instagram: thespacedoctor
+  github: mylovelyhorse
+  linkedin: mylovelyhorse-48329
+  stackoverflow: 549032
+  instagram: mylovelyhorse
   tumblr:
   # For Google Authorship https://plus.google.com/authorship
   google_plus: 
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:  UA-79433437-1
+google_analytics:  UA-748293-2
 google_verify:
 
 # Links to include in menu navigation
@@ -141,6 +141,12 @@ kramdown:
 
 # The defaults key holds an array of scope/values pairs that define what defaults should be set for a particular file path, and optionally, a file type in that path. See https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
+  -
+    scope:
+        path: "" # an empty string here means all files in the project (possible to use glob patterns - currently limited to patterns that contain * - when matching defaults.
+        type: pages # can be pages, posts, drafts or any collection in your site.
+    values:
+        mathjax: true
   -
     scope:
       path: "" # an empty string here means all files in the project (possible to use glob patterns - currently limited to patterns that contain * - when matching defaults.
