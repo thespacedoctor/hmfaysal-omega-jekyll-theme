@@ -9,7 +9,7 @@ tags:
     - images 
     - gallery 
     - photo
-imagefeature: blurred_circles.jpg
+imagefeature: 
 photo: /images/endeavour_launch.jpg
 comments: true
 date: 2016-06-02

@@ -6,7 +6,7 @@ category: Theme-Setup
 tags: 
     - jekyll
     - installation
-imagefeature: star_field.jpg
+imagefeature: 
 comments: true
 mathjax: 
 ---

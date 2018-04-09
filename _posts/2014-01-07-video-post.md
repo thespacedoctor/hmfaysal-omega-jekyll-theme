@@ -8,7 +8,7 @@ tags:
     - sample-post 
     - video
 video: https://www.youtube.com/watch?v=Oe3St1GgoHQ
-imagefeature: blurred_circles.jpg
+imagefeature: 
 comments: true
 date: 2016-06-02
 modified:

@@ -7,7 +7,7 @@ tags:
   - sample post
   - code
   - highlighting
-imagefeature: star_field.jpg
+imagefeature: 
 comments: true
 modified: 2016-05-31
 date: 2016-05-31

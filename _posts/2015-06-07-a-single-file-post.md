@@ -1,7 +1,7 @@
 ---
 title: MultiMarkdown Syntax Guide
 layout: post
-imagefeature: star_field.jpg
+imagefeature: 
 comments: true
 mathjax: true
 tags: markdown
@@ -13,9 +13,10 @@ modified: null
 
 This guide has been lifted directly from Fletcher Penney's [Multimarkdown Github Repo](https://github.com/fletcher/MultiMarkdown "fletcher/MultiMarkdown · GitHub"). I'm using it to make sure all syntax is rendering correctly on these pages.
 
+
 This is a guide to the markup syntax used in the MultiMarkdown system.
 
-shitburgers
+{{page.imagefeature|jsonify}}
 
 <!--summary-->
 
