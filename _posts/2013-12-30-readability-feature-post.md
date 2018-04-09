@@ -7,7 +7,7 @@ tags:
     - sample post
     - readability
 modified: 2013-06-30
-imagefeature: albert-einstein-2068-hd-wallpapers.jpg
+imagefeature: 
 comments: true
 share: true
 ---

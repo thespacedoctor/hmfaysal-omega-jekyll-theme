@@ -4,7 +4,7 @@ title: "Feature - Sample Mathjax Post"
 subtitle: "MathJax Test article"
 category: Sample-Posts
 tags: [sample post, mathjax]
-imagefeature: star_field.jpg
+imagefeature: 
 comments: true
 modified: 2016-05-31
 date: 2016-05-31

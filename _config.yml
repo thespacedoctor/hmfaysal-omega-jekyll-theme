@@ -3,8 +3,6 @@
 title:            mylovelyhorse
 description:      Thoughts, Reviews from My Lovely Horse
 logo:             thespacedoctor_icon_white_circle.png
-# Assign a default image for your site's header and footer
-default_bg:       m66_hst_big.jpg
 search:           true
 share:            true
 # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
@@ -139,6 +137,8 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
 
+theme: jekyll-theme-omega
+
 # The defaults key holds an array of scope/values pairs that define what defaults should be set for a particular file path, and optionally, a file type in that path. See https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
   -
@@ -153,7 +153,6 @@ defaults:
       type: posts # can be pages, posts, drafts or any collection in your site.
     values:
       layout: post
-      imagefeature: star_field.jpg
       comments: true
       mathjax: true
       tags: ""

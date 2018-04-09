@@ -6,9 +6,7 @@ categories: personal
 tags: 
   - blogging
   - jekyll
-image: 
-  path: "/images/star_field.jpg"
-  feature: "website-speed.jpg"
+imagefeature: 
   credit: spreadeffect.com
   creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 comments: false

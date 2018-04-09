@@ -7,7 +7,7 @@ tags:
   - sample-post
   - images
   - test
-imagefeature: star_field.jpg
+imagefeature: 
 comments: true
 share: true
 ---

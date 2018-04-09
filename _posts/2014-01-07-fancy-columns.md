@@ -6,7 +6,7 @@ category: Sample-Posts
 tags: 
     - sample post
     - columns
-imagefeature: star_field.jpg
+imagefeature: 
 comments: true
 modified: 2016-05-31
 date: 2016-05-31
