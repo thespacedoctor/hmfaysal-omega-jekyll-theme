@@ -10,7 +10,7 @@ tags:
     - gallery 
     - photo
 imagefeature: 
-photo: /images/endeavour_launch.jpg
+photo: /assets/images/endeavour_launch.jpg
 comments: true
 date: 2016-06-02
 modified: 
@@ -90,7 +90,7 @@ subtitle: "Examples and code for displaying images in posts."
 category: photos
 tags: sample-post images gallery photo
 imagefeature: blurred_circles.jpg
-photo: /images/endeavour_launch.jpg
+photo: /assets/images/endeavour_launch.jpg
 comments: true
 modified: 
 ---
