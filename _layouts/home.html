@@ -20,25 +20,8 @@
 </div>
 <!-- ./search-wrapper -->
 {% endif %}
-    <div id="fade"></div>
-    <a id="slide" class="animated fade"><i class="fa fa-bars"></i></a>
-    <aside id="sidebar">
-        <nav id="navigation">
-            <h2>MENU</h2> <hr>
-            <ul>
-{% for link in site.links %}
-                <li>
-                {% if link.external %}
-                    <a href="{{ link.url }}">{{ link.title }}</a>
-                {% else %}
-                    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
-                {% endif %}
-                </li>
-{% endfor %}            
-                <li><a href="{{ site.url }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
-            </ul>
-        </nav>
-    </aside>
+    
+    {% include menu.html %}
 
 
 {% if page.imagefeature %}
@@ -65,7 +48,7 @@
                     </h1>
                 </a>
                 <h2 class="blog-description light bordered bordered-top" itemprop="description">
-                    {{ site.description }}
+                    {{ site.description }} 
                 </h2>
             </div>
         </div>

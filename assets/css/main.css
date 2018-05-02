@@ -11356,7 +11356,7 @@ a#slide.slide:after {
     position: fixed;
     overflow-y: scroll;
     height: 100%;
-    width: 180px;
+    width: 220px;
     padding: 40px 30px 0;
     top: 0;
     left: -180px;
@@ -11369,7 +11369,7 @@ a#slide.slide:after {
         position: fixed;
         overflow-y: scroll;
         height: 100%;
-        width: 180px;
+        width: 220px;
         padding: 40px 30px 0;
         top: 0;
         left: 0px;
@@ -11394,6 +11394,10 @@ a#slide.slide:after {
     margin: 40px 0 39px;
     background: #242424;
     border: 0;
+}
+
+#sidebar #navigation {
+    margin-bottom: 50px;
 }
 
 #sidebar #navigation hr {
