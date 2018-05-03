@@ -48,7 +48,7 @@ read ans
 
 if [[ $ans == "y" ]] 
 then
-    rm -r _includes _layouts LICENSE.txt README.md
+    rm -r _includes _layouts LICENSE.txt README.md theme-assets
 fi
 
 echo "Would you like to edit your _config.yml file now? [y|n]:"

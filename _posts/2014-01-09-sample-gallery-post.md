@@ -9,7 +9,6 @@ tags:
     - images 
     - gallery 
     - photo
-imagefeature: 
 photo: /assets/images/endeavour_launch.jpg
 comments: true
 date: 2016-06-02
