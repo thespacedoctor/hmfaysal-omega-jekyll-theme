@@ -1,0 +1,9 @@
+---
+layout: null
+permalink: protected/.htaccess
+---
+
+AuthType Basic
+AuthName "Protected Posts"
+AuthUserFile "{{ site.source }}/.htpasswd"
+Require valid-user
