@@ -6,9 +6,6 @@ categories: personal
 tags: 
   - blogging
   - jekyll
-imagefeature: 
-  credit: spreadeffect.com
-  creditlink: "http://www.spreadeffect.com/blog/improve-website-speed/"
 comments: false
 mathjax: null
 featured: true

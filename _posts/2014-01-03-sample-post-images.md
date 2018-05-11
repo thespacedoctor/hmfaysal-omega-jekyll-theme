@@ -21,7 +21,7 @@ Here are some examples of what a post with images might look like. If you want t
 ### One Up
 
 <figure>
-	<a href="{{ site.url }}/assets/images/disneyland.jpg"><img src="{{ site.url }}/assets/images/disneyland.jpg"></a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/assets/images/disneyland.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/disneyland.jpg"></a>
 	<figcaption><a href="http://hmfaysal.github.io/" data-toggle="tooltip" title="Visit my website">A day at Disneyland, Tokyo</a>.</figcaption>
 </figure>
 
@@ -40,10 +40,10 @@ Apply the `half` class like so to display two images side by side that share the
 And you'll get something that looks like this:
 
 <figure class="half">
-	<a href="{{ site.url }}/assets/images/gallery1/photo (6).jpg"><img src="{{ site.url }}/assets/images/gallery1/photo (5).jpg"></a>
-	<a href="{{ site.url }}/assets/images/gallery1/photo (12).jpg"><img src="{{ site.url }}/assets/images/gallery1/photo (11).jpg"></a>
-	<img src="{{ site.url }}/assets/images/gallery1/photo (13).jpg"></a>
-	<img src="{{ site.url }}/assets/images/gallery1/photo (19).jpg"></a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (6).jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (5).jpg"></a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (12).jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (11).jpg"></a>
+	<img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (13).jpg"></a>
+	<img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (19).jpg"></a>
 	<figcaption>Two images.</figcaption>
 </figure>
 
@@ -63,11 +63,11 @@ Apply the `third` class like so to display three images side by side that share 
 And you'll get something that looks like this:
 
 <figure class="third">
-	<a href="{{ site.url }}/assets/images/gallery1/photo (22).jpg"><img src="{{ site.url }}/assets/images/gallery1/photo (21).jpg"></a>
-	<a href="{{ site.url }}/assets/images/gallery1/photo (24).jpg"><img src="{{ site.url }}/assets/images/gallery1/photo (23).jpg"></a>
-	<a href="{{ site.url }}/assets/images/gallery1/photo (74).jpg"><img src="{{ site.url }}/assets/images/gallery1/photo (73).jpg"></a>
-	<a href="{{ site.url }}/assets/images/gallery1/photo (4).jpg"><img src="{{ site.url }}/assets/images/gallery1/photo (3).jpg"></a>
-	<a href="{{ site.url }}/assets/images/gallery1/photo (18).jpg"><img src="{{ site.url }}/assets/images/gallery1/photo (17).jpg"></a>
-	<a href="{{ site.url }}/assets/images/gallery1/photo (10).jpg"><img src="{{ site.url }}/assets/images/gallery1/photo (9).jpg"></a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (22).jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (21).jpg"></a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (24).jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (23).jpg"></a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (74).jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (73).jpg"></a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (4).jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (3).jpg"></a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (18).jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (17).jpg"></a>
+	<a href="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (10).jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/gallery1/photo (9).jpg"></a>
 	<figcaption>Three images.</figcaption>
 </figure>
