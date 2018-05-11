@@ -157,3 +157,7 @@ defaults:
       mathjax: true
       tags: ""
       category: personal
+      published: false
+
+# CATGORIES
+

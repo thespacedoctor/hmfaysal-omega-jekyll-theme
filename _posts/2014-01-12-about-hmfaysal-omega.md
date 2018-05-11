@@ -92,8 +92,8 @@ This theme uses Google Webfonts instead of Adobe Edgefonts for performance.
 * Footer Menu
 * 361 Fontawesome icons
 * Tags for [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) for a better social sharing experience
-* Beautifully crafted [404 page]({{ site.url }}/404.html)
-* Custom [categories]({{ site.url }}/categories/) and [tags]({{ site.url }}/tags/) pages for viewers pleasure
+* Beautifully crafted [404 page]({{ site.url }}/{{ site.baseurl }}/404.html)
+* Custom [categories]({{ site.url }}/{{ site.baseurl }}/categories/) and [tags]({{ site.url }}/{{ site.baseurl }}/tags/) pages for viewers pleasure
 * Stylesheets for Pygments and Coderay to make your code examples look snazzy.
 * Sitemap for search engines
 
@@ -104,7 +104,7 @@ HMFAYSAL OMEGA Theme was designed by Hossain Mohd Faysal -- an Electrical Engine
 
 ### Questions?
 
-Having a problem getting something to work or want to know why I setup something in a certain way? Read the [theme documentation]({{ site.url }}/documentation/) or ping me on Twitter [@hmfaysal](http://twitter.com/hmfaysal) or [file a GitHub Issue](https://github.com/hmfaysal/hmfaysal-omega-theme/issues/new).
+Having a problem getting something to work or want to know why I setup something in a certain way? Read the [theme documentation]({{ site.url }}/{{ site.baseurl }}/documentation/) or ping me on Twitter [@hmfaysal](http://twitter.com/hmfaysal) or [file a GitHub Issue](https://github.com/hmfaysal/hmfaysal-omega-theme/issues/new).
 
 ---
 
@@ -116,7 +116,7 @@ If you have some specific requests for this theme, or if you need help custom co
 
 ## License
 
-This theme is free and open source software, distributed under the [The MIT License]({{ site.url }}/license/). So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+This theme is free and open source software, distributed under the [The MIT License]({{ site.url }}/{{ site.baseurl }}/license/). So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
 
 
 If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.

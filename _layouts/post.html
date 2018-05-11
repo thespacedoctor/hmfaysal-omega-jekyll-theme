@@ -28,6 +28,10 @@
                         <div class="cursive">this post is featured</div>
                     {% endif %}
 
+                    {% if page.photo %}
+                        <figure class="lead-photo"><a href="{{ page.photo }}"><img src="{{ page.photo }}" alt="{{ page.title }}" itemprop="image"></a></figure>
+                    {% endif %}
+
                     {% if page.link %}
                         <h1 class="post-title text-center hyper lighter entry-title" itemprop="headline">
                             <a href="{{ page.link }}" data-toggle="tooltip" title="Go to {{ page.link }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px">
