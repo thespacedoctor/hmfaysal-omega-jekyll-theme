@@ -21,44 +21,44 @@ For three figures:
 
 ```html
 <figure class="third">
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
 </figure>
 ```
 
 <!--summary-->
 
 <figure class="third">
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
 </figure>
 
 For two figures:
 
 ```html
 <figure class="half">
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
 </figure>
 ```
 
 <figure class="half">
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
 </figure>
 
 For one figures:
 
 ```html
 <figure>
-    <a href="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
+    <a href="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"><img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg"></a>
 </figure>
 ```
 
 <figure>
-    <img src="{{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg">
 </figure>
 
 ## Markdown Images
@@ -68,14 +68,14 @@ I have some custom JS and CSS running so that all MMD images use the Magnific Po
 ```markdown
 ![][20160601t1739]
 
-[20160601t1739]: {{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg "this is something" width=600px
+[20160601t1739]: {{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg "this is something" width=600px
 ```
  renders like this (click to see zoom animation):
 
 ![][20160601t17344]
 
 
-[20160601t17344]: {{ site.url }}/{{ site.baseurl }}/assets/images/endeavour_launch.jpg "this is something" width=600px
+[20160601t17344]: {{ site.url }}{{ site.baseurl }}/assets/images/endeavour_launch.jpg "this is something" width=600px
 
 
 ## YAML Front Matter

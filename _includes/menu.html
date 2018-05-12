@@ -9,11 +9,11 @@
                 {% if link.external %}
                     <a href="{{ link.url }}">{{ link.title }}</a>
                 {% else %}
-                    <a href="{{ site.url }}/{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
+                    <a href="{{ site.url }}{{ site.baseurl }}{{ link.url }}">{{ link.title }}</a>
                 {% endif %}
                 </li>
 {% endfor %}            
-                <li><a href="{{ site.url }}/{{ site.baseurl }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
+                <li><a href="{{ site.url }}{{ site.baseurl }}/feed.xml" title="Atom/RSS feed"><i class="fa fa-rss"></i> Feed</a></li>
             </ul>
         </nav>
         <nav id="navigation">
@@ -21,7 +21,7 @@
         <hr>
         <ul> {% for tag in site.categories %} 
             <li>
-                <a href="{{ site.url }}/{{ site.baseurl }}/categories/index.html#{{ tag[0] }}">{{ tag[0] }}</a></li>
+                <a href="{{ site.url }}{{ site.baseurl }}/categories/index.html#{{ tag[0] }}">{{ tag[0] }}</a></li>
             {% endfor %}
         </ul>
     </nav>
