@@ -50,8 +50,18 @@
                             {% if page.type == 'photo' %}                        
                                 <i class="fa fa-picture-o"></i> 
                             {% endif %}
+
+                            {% if page.type == 'podcast' %}                        
+                                <i class="fas fa-podcast"></i> 
+                            {% endif %}
                         
-                                {{ page.title }}<span class="link-arrow">&rarr;</span>
+                                {{ page.title }}
+
+                            {% if page.type == 'podcast' %}                        
+                                - {{ page.speaker }}
+                            {% endif %}
+
+                            <span class="link-arrow">&rarr;</span>
                             </a>
                         </h1>
                     {% else %}
@@ -119,7 +129,7 @@
                                 </span>
                             
                             {% if site.readtime %}&nbsp;
-                                <span class="post-tags"><i class="fa fa-clock-o"></i>&nbsp;
+                                <span class="post-tags"><i class="far fa-clock"></i>&nbsp;
 
                             {% if readtime > 1 and readtime < 1.5 %}
                                     1 minute read
@@ -135,6 +145,14 @@
 
                                 </span>
                             {% endif %}
+
+                             {% if page.type == 'podcast' %}                        
+                             <audio controls>
+                                  <source src="{{page.mp3}}" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                                </audio>
+                        {% endif %}
+                            
                             </div>
 
                     </header>

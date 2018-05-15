@@ -55,12 +55,21 @@ layout: home
                 {% endif %}
                 </h2>
              {% elsif post.type != 'video' and post.type != 'status' and post.type != 'quote' and post.type != 'photo' %}
+
+             
+             
              <article class="post post col-md-8 col-md-offset-2">
 	               <header class="post-header">
 	               {% if post.featured %}<div class="cursive">this post is featured</div>{% endif %}
 	                    {% if post.link %}
-	                    <h2 class="post-title text-center super lighter">
-	                        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px"><i class="icon-link"></i> {{ post.title }}</a>
+                            <h2 class="post-title text-center super lighter">
+                          {% if post.type == 'podcast' %}
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px; line-height: 70px"><i class="fas fa-podcast"></i> {{ post.title }}- {{ post.speaker }}</a>
+                           {% else %}
+                            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="color: #fff; background-color: #45ADA8; border-radius: 4px; padding: 10px; line-height: 70px"><i class="icon-link"></i>{{ post.title }}</a>
+                           {% endif %}
+	                    
+	                        
 	                    {% else %}
 	                    <h2 class="post-title text-center super lighter bordered-bottom">
 	                        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>

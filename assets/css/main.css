@@ -10912,3 +10912,10 @@ div.entry-tags a {
     color: #dc322f;
     border-bottom: 0
 }
+
+audio {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: table;
+}
